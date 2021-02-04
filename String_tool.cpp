@@ -87,5 +87,26 @@ bool String_tool::exsitFile(char* FileName)
     return (stat(FileName, &my_stat) == 0);
 }
 
+//    ofstream outfile;
+//    outfile.open("test.dat", ios::ate);
+//    cout << "writing to the file" << outfile.is_open() << endl;
+//    cout << "enter your name: ";
+//    cin.getline(dataf, 100);
+
+//    string datas;
+//    outfile << dataf;
+//    outfile << "test2" << endl;
+//    outfile.close();
+
+
+//    ifstream infile;
+//    infile.open("test.data");
+//    cout << "reading from the file: " << endl;
+//    infile >> dataf;
+//    cout << dataf << endl;
+//    infile >> datas;
+//    cout << datas << endl;
+//    infile.close();
+
 
 #endif STRING_TOOL_C
